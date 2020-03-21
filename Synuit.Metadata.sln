@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Metadata.Server", "Synuit.Metadata.Server\Synuit.Metadata.Server.csproj", "{E4971E3B-154B-4B89-85C7-8857460A5930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Metadata.Api", "Synuit.Metadata.Api\Synuit.Metadata.Api.csproj", "{6E73501E-0FAB-466E-8FB3-74C05C723464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Metadata.Services", "Synuit.Metadata.Services\Synuit.Metadata.Services.csproj", "{3CC87FC6-CF49-4EF8-AA3F-44324832FC81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Metadata.Sdk", "Synuit.Metadata.Sdk\Synuit.Metadata.Sdk.csproj", "{DA21684C-32C7-4219-8CB9-D08DD69B5151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synuit.Metadata.Data", "Synuit.Metadata.Data\Synuit.Metadata.Data.csproj", "{9EA81A0B-A089-46F1-BA20-67C46009113D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "files", "files", "{1E41D366-424C-46C9-9F66-D85B000DF1B4}"
+	ProjectSection(SolutionItems) = preProject
+		files\LICENSE.md = files\LICENSE.md
+		files\policy.jpg = files\policy.jpg
+		files\synuit1.png = files\synuit1.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4971E3B-154B-4B89-85C7-8857460A5930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4971E3B-154B-4B89-85C7-8857460A5930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4971E3B-154B-4B89-85C7-8857460A5930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4971E3B-154B-4B89-85C7-8857460A5930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E73501E-0FAB-466E-8FB3-74C05C723464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E73501E-0FAB-466E-8FB3-74C05C723464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E73501E-0FAB-466E-8FB3-74C05C723464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E73501E-0FAB-466E-8FB3-74C05C723464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC87FC6-CF49-4EF8-AA3F-44324832FC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC87FC6-CF49-4EF8-AA3F-44324832FC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC87FC6-CF49-4EF8-AA3F-44324832FC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC87FC6-CF49-4EF8-AA3F-44324832FC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA21684C-32C7-4219-8CB9-D08DD69B5151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA21684C-32C7-4219-8CB9-D08DD69B5151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA21684C-32C7-4219-8CB9-D08DD69B5151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA21684C-32C7-4219-8CB9-D08DD69B5151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA81A0B-A089-46F1-BA20-67C46009113D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA81A0B-A089-46F1-BA20-67C46009113D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA81A0B-A089-46F1-BA20-67C46009113D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA81A0B-A089-46F1-BA20-67C46009113D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8551A2E4-CDAB-4634-9B22-46D222E66FB7}
+	EndGlobalSection
+EndGlobal
